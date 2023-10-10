@@ -18,3 +18,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.loader span {
+    position: absolute;
+    transform-origin: 150px;
+    transform: translateX(-150px) rotate(calc(var(--i) * 30deg));
+    filter: drop-shadow(0 0 5px #3cc2ff) drop-shadow(0 0 5px #3cc2ff) drop-shadow(0 0 5px #3cc2ff);
+}
+.loader span i 
+{
+    position: relative;
+    color: #3cc2ff;
+}
